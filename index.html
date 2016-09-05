@@ -1,0 +1,67 @@
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+  </head>
+  <body ng-app="starter">
+    <ion-pane>
+<!--
+      <ion-header-bar class="bar-dark">
+        <button class="button button-icon icon ion-navicon icon-left" ></button>
+        <h1 class="title"  style="text-aligne:center">Ionic App</h1>
+        <button class="button button-clear button-calm ">Edit</button>
+      </ion-header-bar>
+-->
+        <div class="bar bar-header item-input-inset">
+            <label class="item-input-wrapper">
+                <i class="icon ion-search placeholder-icon"></i>
+                <input type="search" placeholder="Search...">
+            </label>
+            <button class="button button-clear button-dark">
+                Cancel
+            </button>
+        </div>
+      
+        <ion-content padding=true class="has-header">
+            
+            <ion-list>
+                <ion-checkbox>Javascript</ion-checkbox>
+                <ion-checkbox>Python</ion-checkbox>
+                <ion-checkbox>Ruby</ion-checkbox>
+                <ion-checkbox>Angular 2</ion-checkbox>
+            </ion-list>
+            
+            <ion-list>
+                <ion-radio>Cordova</ion-radio>
+                <ion-radio>Phonegap</ion-radio>
+                <ion-radio>Ionic 1</ion-radio>
+            </ion-list>
+            
+        </ion-content>
+        
+      <ion-footer-bar class="bar-light">
+        <h1 class="title" style="text-aligne:center">Ionic App &copy; 2016</h1>
+      </ion-footer-bar>
+    </ion-pane>
+  </body>
+</html>
+
+    
